@@ -1,0 +1,5 @@
+- name: playbook 1
+  hosts: registry
+  become: yes
+  roles:
+  - monrole
